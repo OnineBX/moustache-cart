@@ -5,9 +5,23 @@
     background-color: #F6F6F7;
     text-align: right;
 
-    span {
+    &__text {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        height: 1.8rem;
+        box-sizing: border-box;
         color: #888888;
+        padding: 0px 5px;
         font-size: .7rem;
         margin-right: 80px;
+        cursor: pointer;
+        z-index: 100;
+        &:hover {
+            background: white;
+            border: 1px solid #CCCCCC;
+            border-bottom: 4px solid white;
+            overflow:visible;
+        }
     }
 }

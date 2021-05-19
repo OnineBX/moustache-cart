@@ -4,12 +4,12 @@ import Header from './components/Header';
 import Content from './components/Content';
 
 function App() {
-  console.log('app----' + process.env.PUBLIC_URL)
+  
   return (
     <div className="App">
-      <Header />
-      <Content />
-    </div>
+        <Header />
+        <Content />
+      </div>
   );
 }
 

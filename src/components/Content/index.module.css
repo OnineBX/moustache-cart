@@ -12,6 +12,7 @@
 @media screen and (max-width: 768px) {
   .content__container {
     flex-direction: column;
+    padding: 0 5vw;
   }
   .content__container img {
     width: 100%;

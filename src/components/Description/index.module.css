@@ -55,9 +55,15 @@
   background: transparent;
 }
 
+.add:hover {
+  background: #CCCCCC;
+}
+
 @media screen and (max-width: 768px) {
   .description__container {
     width: 100%;
-    margin-top: 10vw;
+    align-self: center;
+    margin-left: 0vw;
+    margin-top: 5vh;
   }
 }

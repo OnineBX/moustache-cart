@@ -3,7 +3,6 @@
         width: 40%;
         margin-left: 10vw;
         align-self: flex-start;
-        
     }
 }
 
@@ -58,13 +57,19 @@
     font-size: 1rem;
     padding: 10px 20px;
     background: transparent;
+
+    &:hover{
+        background: #CCCCCC;
+    }
 }
 
 @media screen and(max-width: 768px) {
     .description{
         &__container {
             width: 100%;
-            margin-top: 10vw;
+            align-self: center;
+            margin-left: 0vw;
+            margin-top: 5vh;
         }
     }
 }
